@@ -3,16 +3,8 @@ This python script scrapes the distance and duration for a map route, given orig
 ## How to use
 1. Create an Excel sheet with the same columns as defined in input.xlsx.
 2. Replace C1-E1 with the 3 addresses you want to lookup.
-3. Run BCM_scrape.
+3. Run distance_scrape_with_excel
 4. The output will be created in output.xlsx
-
-## Project Requirements:
-* Has to be free and lightweight => therefore non-usage of external API is preferred; Only walking distance is needed 
-* Used only twice a year => No performance requirements
-
-I/O uses excel sheets
-- Inputs: zipcode 
-- Outputs: the walking distance to each destination, in kilometers
 
 ## Preqrequisites to Install
 - Python
